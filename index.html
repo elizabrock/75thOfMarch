@@ -58,8 +58,10 @@
     </footer>
 
     <script type="text/javascript">
-      var march1 = new Date("03/01/2020");
+      var march1 = new Date("02/29/2020");
+      march1.setHours(0,0,0,0);
       var marchN = new Date();
+      marchN.setHours(0,0,0,0);
       var millisecondsThatHaveInchedBy = marchN.getTime() - march1.getTime();
       var daysThatHaveCreptAlong = Math.round(millisecondsThatHaveInchedBy / (1000 * 3600 * 24));
       document.getElementById("numericday").textContent= daysThatHaveCreptAlong;
