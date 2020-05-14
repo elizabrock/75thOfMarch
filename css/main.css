@@ -21,7 +21,7 @@ main date {
 #weekday, #year {
   display: block;
 }
-#month, #numericday {
+#month, #numericday, #ordinal {
   font-size: 200%;
 }
 footer {

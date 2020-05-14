@@ -45,9 +45,9 @@
       <p id="nth_of_march">
         It is
         <date>
-          <span id="weekday">Friday</span>
+          <span id="weekday"></span>
           <span id="month">March</span>
-          <span id="numericday">75th</span>,
+          <span id="numericday"></span><span id="ordinal">th</span>,
           <span id="year">2020</span>
         </date>
       </p>
@@ -56,6 +56,17 @@
       Created by
       <a href="http://twitter.com/#!/elizabrock">@elizabrock</a>.
     </footer>
+
+    <script type="text/javascript">
+      var march1 = new Date("03/01/2020");
+      var marchN = new Date();
+      var millisecondsThatHaveInchedBy = marchN.getTime() - march1.getTime();
+      var daysThatHaveCreptAlong = Math.round(millisecondsThatHaveInchedBy / (1000 * 3600 * 24));
+      document.getElementById("numericday").textContent= daysThatHaveCreptAlong;
+      var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      var currentWeekday = weekdays[marchN.getDay()];
+      document.getElementById("weekday").textContent= currentWeekday;
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164783293-2"></script>

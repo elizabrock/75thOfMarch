@@ -28,10 +28,10 @@ None.  This is the real deal folks: static, hand-crafted HTML in the tradtion of
 
   Credits: @elizamarcum / link to repo
   ```
-2. Sprinkle in some vanilla AF javascript to fill in the weekday and numeric date
-3. Write some automated tests for generating the "75th" part
+2. ✔ Sprinkle in some vanilla AF javascript to fill in the weekday and numeric date
+3. Write some automated tests for generating the "75th" part, especially "th", vs "rd", etc.
 4. Write some automated tests for the Friday part?
-5. Google Analytics
+5. ✔ Google Analytics
 6. A nice vcard share things for Twitter/Facebook
 7. Share with the internet
 8. Maybe add a Twitter share button?
