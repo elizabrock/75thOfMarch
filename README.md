@@ -32,7 +32,7 @@ None.  This is the real deal folks: static, hand-crafted HTML in the tradtion of
 3. Write some automated tests for generating the "75th" part, especially "th", vs "rd", etc.
 4. Write some automated tests for the Friday part?
 5. ✔ Google Analytics
-6. A nice vcard share things for Twitter/Facebook
+6. ✔ Nice card share things for Twitter/Facebook
 7. Share with the internet
 8. Maybe add a Twitter share button?
 9. Possibly, also check to see if it looks like shit in IE.
