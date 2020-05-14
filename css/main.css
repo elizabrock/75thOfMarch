@@ -1,0 +1,30 @@
+/* A little pizzazz borrowed from http://bettermotherfuckingwebsite.com/, because why not? */
+body{margin:40px
+auto;max-width:650px;line-height:1.6;font-size:24px;color:#444;padding:0
+10px}h1,h2,h3{line-height:1.2}
+
+/* ismarchoveryet.com specific styling: */
+body {}
+header {}
+main {
+  text-align: center;
+}
+main p {
+
+}
+main date {
+  font-family: fairplex-narrow, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 150%;
+}
+#weekday, #year {
+  display: block;
+}
+#month, #numericday {
+  font-size: 200%;
+}
+footer {
+  position:fixed;
+  bottom: 0;
+}

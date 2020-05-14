@@ -12,7 +12,7 @@ None.  This is the real deal folks: static, hand-crafted HTML in the tradtion of
 
 ## TODO
 
-1. Basic HTML Page of the format:
+1. ✔ Basic HTML Page of the format:
   ```
   Is March over yet?
   NOPE
