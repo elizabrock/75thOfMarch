@@ -27,4 +27,9 @@ main date {
 footer {
   position:fixed;
   bottom: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.credit {
+  font-size: 75%;
+  margin-top: 0;
 }
