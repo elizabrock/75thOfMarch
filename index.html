@@ -58,6 +58,22 @@
     </footer>
 
     <script type="text/javascript">
+      // ordinal_suffix_of is adapted from https://stackoverflow.com/a/13627586/35345
+      function ordinal_suffix_of(i) {
+        var j = i % 10,
+            k = i % 100;
+        if (j == 1 && k != 11) {
+            return "st";
+        }
+        if (j == 2 && k != 12) {
+            return "nd";
+        }
+        if (j == 3 && k != 13) {
+            return "rd";
+        }
+        return "th";
+      }
+
       var march1 = new Date("02/29/2020");
       march1.setHours(0,0,0,0);
       var marchN = new Date();
@@ -68,6 +84,7 @@
       var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       var currentWeekday = weekdays[marchN.getDay()];
       document.getElementById("weekday").textContent= currentWeekday;
+      document.getElementById("ordinal").textContent= ordinal_suffix_of(daysThatHaveCreptAlong);
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
